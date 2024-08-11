@@ -1,0 +1,27 @@
+{
+    "name": " {{ cookiecutter.project_slug }} ",
+    "build": {
+      "context": "..",
+      "dockerfile": "../environments/Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-toolsai.jupyter",
+                "ms-python.python",
+                "ms-azuretools.vscode-docker",
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
+                "mhutchie.git-graph",
+                "charliermarsh.ruff"
+            ],
+            "settings": {
+                "python.formatting.provider": "none",  // Disable other formatters
+                "editor.defaultFormatter": "charliermarsh.ruff",  // Set Ruff as the default formatter
+                "editor.formatOnSave": true  // Enable format on save
+            }
+        }
+    }, 
+    "forwardPorts": [8888], 
+    "postCreateCommand": "bash ./.devcontainer/post-install.sh"
+}

@@ -20,7 +20,7 @@ This repository is supposed to bring the most development value for the least kn
 
 - [x] Cookiecutter template
 - [x] Poetry dependency managment
-- [ ] Visual Studio Code Devcontainer settings
+- [x] Visual Studio Code Devcontainer settings
 - [ ] Pre-commit
 - [ ] Ruff linting and formatting
 - [ ] Instructions with basic explenations
