@@ -22,5 +22,5 @@ This repository is supposed to bring the most development value for the least kn
 - [x] Poetry dependency managment
 - [x] Visual Studio Code Devcontainer settings
 - [x] Pre-commit
-- [ ] Ruff linting and formatting
+- [x] Ruff linting and formatting
 - [ ] Instructions with basic explenations
