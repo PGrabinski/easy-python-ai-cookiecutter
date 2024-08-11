@@ -1,0 +1,7 @@
+{
+    "project_name": "Easy Python AI Engineering Cookiecutter",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "author": "Anonymous",
+    "author_email": "",
+    "project_description": "A cookiecutter template for easy Python AI engineering projects."
+}
