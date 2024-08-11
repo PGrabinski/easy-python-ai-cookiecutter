@@ -19,7 +19,7 @@ This repository is supposed to bring the most development value for the least kn
 # Plans
 
 - [x] Cookiecutter template
-- [ ] Poetry dependency managment
+- [x] Poetry dependency managment
 - [ ] Visual Studio Code Devcontainer settings
 - [ ] Pre-commit
 - [ ] Ruff linting and formatting
