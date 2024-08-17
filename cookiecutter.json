@@ -3,5 +3,14 @@
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "author": "Anonymous",
     "author_email": "",
-    "project_description": "A cookiecutter template for easy Python AI engineering projects."
+    "project_description": "A cookiecutter template for easy Python AI engineering projects.",
+    "mypy": ["N", "y"],
+    "__prompts__":{
+        "project_name": "The name of your project.",
+        "project_slug": "The short name used in imports and directory names.",
+        "mypy": "Do you want to add static type checking with mypy?",
+        "author": "Name used in git config.", 
+        "author_email": "Email used in git config.",
+        "project_description": "Description used in the initial README.md file."
+    }
 }
