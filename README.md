@@ -2,7 +2,7 @@
 
 This repository contains a [Cookiecutter](https://cookiecutter.readthedocs.io/en/stable/index.html) template for people who do NOT want to spend too much time on Python logistics
 
-# Motivation
+## Motivation
 
 In ML/AI research, we praise ourselves that many publication in our discipline come with code. Ergo, they are reproducible.
 
@@ -16,11 +16,14 @@ I've read [Hypermodern Python Tooling by Claudio Jolowicz](https://www.oreilly.c
 
 This repository is supposed to bring the most development value for the least knowledge and effort required.
 
-# Plans
+## Plans
 
 - [x] Cookiecutter template
 - [x] Poetry dependency managment
 - [x] Visual Studio Code Devcontainer settings
 - [x] Pre-commit
 - [x] Ruff linting and formatting
-- [ ] Instructions with basic explenations
+- [x] Mypy static type checking
+- [x] Pre-commit hooks extension
+- [ ] Instructions with basic explenations of the used tools
+- [ ] Extended tutorials for the used tools that cover typical uses
