@@ -17,7 +17,3 @@ ENV PYTHONFAULTHANDLER=1 \
   POETRY_HOME='/usr/local'
 
 RUN pipx install poetry
-
-COPY pyproject.toml ./
-
-RUN poetry install
