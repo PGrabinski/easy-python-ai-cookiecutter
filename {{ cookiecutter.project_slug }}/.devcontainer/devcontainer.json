@@ -13,7 +13,8 @@
                 "GitHub.copilot",
                 "GitHub.copilot-chat",
                 "mhutchie.git-graph",
-                "charliermarsh.ruff"
+                "charliermarsh.ruff",
+                "matangover.mypy"
             ],
             "settings": {
                 "python.formatting.provider": "none",  // Disable other formatters
