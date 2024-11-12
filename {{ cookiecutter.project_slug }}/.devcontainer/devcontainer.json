@@ -1,5 +1,5 @@
 {
-    "name": " {{ cookiecutter.project_slug }} ",
+    "name": "{{ cookiecutter.project_slug }}",
     "build": {
       "context": "..",
       "dockerfile": "../environments/Dockerfile"
