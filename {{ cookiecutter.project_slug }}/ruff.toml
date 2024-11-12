@@ -45,7 +45,7 @@ target-version = "py312"
 # McCabe complexity (`C901`) by default.
 # `I` for Isort
 select = ["E4", "E7", "E9", "F", "I", "D"]
-ignore = []
+ignore = ["D203", "D213"]
 
 # Allow fix for all enabled rules (when `--fix`) is provided.
 fixable = ["ALL"]
