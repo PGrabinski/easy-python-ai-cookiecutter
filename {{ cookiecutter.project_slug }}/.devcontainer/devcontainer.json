@@ -13,8 +13,12 @@
                 "GitHub.copilot",
                 "GitHub.copilot-chat",
                 "mhutchie.git-graph",
+                {% if cookiecutter.mypy == 'y' -%}
                 "charliermarsh.ruff",
                 "matangover.mypy"
+                {%- else -%}
+                "charliermarsh.ruff"
+                {%- endif %}
             ],
             "settings": {
                 "python.formatting.provider": "none",  // Disable other formatters
