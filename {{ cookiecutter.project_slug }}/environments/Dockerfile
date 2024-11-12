@@ -17,3 +17,8 @@ ENV PYTHONFAULTHANDLER=1 \
   POETRY_HOME='/usr/local'
 
 RUN pipx install poetry
+
+# After first poetry install, uncomment the following lines
+# COPY pyproject.toml poetry.lock ./
+
+# RUN poetry install --with=dev
